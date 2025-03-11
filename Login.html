@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inloggen</title>
+    <link rel="stylesheet" href="css/Login.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><img src="home button.png" alt="Home"></a>
+        <a href="index.html">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">Sign up</a>
+        <a href="Login.html">Inloggen</a>
+    </div>
+    <div class="container">
+        <h2>Inloggen</h2>
+        <form action="login.php" method="POST">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Wachtwoord" required>
+            <div class="buttons">
+                <button type="button" onclick="window.location.href='signup.html'">Sign up</button>
+                <button type="submit">Next</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
 
