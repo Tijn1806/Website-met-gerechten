@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-    background-color: #ddd;
+    background-color: #EEFF6D;
     padding: 15px;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@ body {
 }
 
 .trending {
-    background-color: #ccc;
+    background-color: #EEFF6D;
     padding: 100px;
     margin: 100px;
     border-radius: 8px;
